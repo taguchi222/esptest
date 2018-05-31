@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="0">
+
+        <TableRow>
+
+            <TextView android:text="1．緑色" />
+
+            <TextView
+                android:id="@+id/analogdata1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata1" />
+
+            <EditText
+                android:id="@+id/value1_1"
+                android:layout_width="100dp"
+                android:hint="value1_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value1_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button1_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView android:text="2．白色" />
+
+            <TextView
+                android:id="@+id/analogdata2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value2_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value2_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button2_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView android:text="3．茶色" />
+
+            <TextView
+                android:id="@+id/analogdata3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata3" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value3_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value3_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button3_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView android:text="4．灰色" />
+
+            <TextView
+                android:id="@+id/analogdata4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata4" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value4_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value4_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button4_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="5．ライム" />
+
+            <TextView
+                android:id="@+id/analogdata5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata5" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value5_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value5_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button5_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="6．青" />
+
+            <TextView
+                android:id="@+id/analogdata6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata6" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value6_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value6_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/butto6_2n"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="7．黄色" />
+
+            <TextView
+                android:id="@+id/analogdata7"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata7" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value7_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value7_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button7_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="8．赤色" />
+
+            <TextView
+                android:id="@+id/analogdata8"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="analogdata8" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value8_1"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button8_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:hint="value8_2"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button8_2"
+                android:text="SET2" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Yaxis" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickChart"
+        android:text="GO! CHART" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="175dp"
+        android:layout_marginStart="119dp"
+        android:text="Main-Right"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/textView"
+        android:text="Sub-Right"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="96dp"
+        android:text="Main-Left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="-96dp"
+        android:text="Sub-Left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/mr_min"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="364dp"
+        android:ems="10"
+        android:hint="range_min"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ml_min"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignStart="@+id/mr_min"
+        android:ems="10"
+        android:hint="range_min"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sr_min"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignStart="@+id/mr_min"
+        android:ems="10"
+        android:hint="range_min"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sl_min"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button12"
+        android:layout_alignStart="@+id/mr_min"
+        android:ems="10"
+        android:hint="range_min"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/mr_max"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="520dp"
+        android:ems="10"
+        android:hint="range_max"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sr_unit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignStart="@+id/mr_max"
+        android:ems="10"
+        android:hint="range_max"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ml_max"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignStart="@+id/mr_max"
+        android:ems="10"
+        android:hint="range_max"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sl_max"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button12"
+        android:layout_alignStart="@+id/mr_max"
+        android:ems="10"
+        android:hint="range_max"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/mr_unit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/mr_min"
+        android:layout_marginEnd="399dp"
+        android:entries="@array/unit" />
+
+    <Spinner
+        android:id="@+id/sr_unit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/mr_unit"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="-175dp"
+        android:entries="@array/unit" />
+
+    <Spinner
+        android:id="@+id/sl_unit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/mr_unit"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="-96dp"
+        android:entries="@array/unit" />
+
+    <Spinner
+        android:id="@+id/ml_unit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/mr_unit"
+        android:layout_below="@+id/sr_unit"
+        android:entries="@array/unit" />
+</RelativeLayout>

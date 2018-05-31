@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FIFO test chart</string>
+
+
+    <string-array name='Yaxis'>
+        <item>Main-Right</item>
+        <item>Sub-Right</item>
+        <item>Main-Left</item>
+        <item>Sub-Left</item>
+    </string-array>
+
+    <string-array name='unit'>
+        <item>℃</item>
+        <item>mmHg</item>
+        <item>J</item>
+        <item>custom</item>
+    </string-array>
+</resources>
